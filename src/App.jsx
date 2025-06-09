@@ -1,7 +1,9 @@
+import Routes from './routes/Routes';
+
 function App() {
   return (
-    <div className="text-center mt-10 text-3xl font-bold text-blue-600">
-      WhereIsIt Client Running with TailwindCSS ✅
+    <div className="max-w-[1280px] mx-auto font-sans">
+      <Routes />
     </div>
   );
 }
